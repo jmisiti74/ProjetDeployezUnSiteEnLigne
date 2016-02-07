@@ -1,0 +1,22 @@
+.navbar-nav span {
+    font-size: 25px;
+    color: rgb(181, 230, 29);
+}
+.navbar-nav {
+    margin-top: 55px;
+}
+@media screen and (max-width: 1156px){
+    .navbar {
+        padding-bottom: 200px;
+    }
+    
+}
+.navbar-nav span:hover {
+    text-decoration: underline;
+}
+
+#logopng {
+    position: absolute;
+    margin-top: 10px;
+    margin-left: 10px;
+}
