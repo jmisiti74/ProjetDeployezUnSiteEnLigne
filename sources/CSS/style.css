@@ -2,15 +2,50 @@
     font-size: 25px;
     color: rgb(181, 230, 29);
 }
+
 .navbar-nav {
-    margin-top: 55px;
+    margin-top: 90px;
 }
-@media screen and (max-width: 1156px){
+
+.navbar {
+    height: 150px;
+}
+body {
+    background: rgba(33, 30, 33, 0.9);
+}
+#espaceMembre {
+    text-align: center;
+    width: 290px;
+    border: 5px solid rgb(181, 230, 29);
+    color: white;
+    background-color: rgb(34, 34, 34);
+}
+@media screen and (max-width: 1156px) {
     .navbar {
         padding-bottom: 200px;
     }
-    
+    .navbar-nav {
+        background-color: rgb(34, 34, 34);
+    }
 }
+
+@media screen and (max-width: 767px) {
+    .navbar-nav span {
+        padding-top: -70px;
+        font-size: 10px;
+    }
+    .navbar {
+        height: 235px;
+    }
+    #espaceMembre {
+        text-align: left;
+        margin-left: -20px;
+        width: 180px;
+        border: 5px solid rgb(181, 230, 29);
+        color: white;
+    }
+}
+
 .navbar-nav span:hover {
     text-decoration: underline;
 }
@@ -19,4 +54,21 @@
     position: absolute;
     margin-top: 10px;
     margin-left: 10px;
+}
+
+.blackText {
+    color: black;
+}
+
+#navButton {
+    margin-top: 60px;
+}
+
+input {
+    margin-bottom: 5px;
+}
+
+button {
+    margin-top: -30px;
+    margin-bottom: 2px;
 }

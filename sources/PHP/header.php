@@ -1,9 +1,9 @@
-<nav class="navbar navbar-inverse col-xs-12" style="height:115px;" role="navigation">
+<nav class="navbar navbar-inverse col-xs-12" role="navigation">
     <div class="row">
         <div class="col-xs-8">
             <div class="navbar-header row">
                 <img style="width:125px;" src="/ProjetDeployezUnSiteEnLigne/sources/images/logo.png" id="logopng" alt="Logo ayze" />
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                <button id="navButton" type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
@@ -19,7 +19,7 @@
                 </ul>
             </div>
         </div>
-        <div class="col-xs-4">
+        <div id="includeEspaceMembre" class="col-xs-4">
             <?php include 'membre.php'; ?>
         </div>
     </div>
