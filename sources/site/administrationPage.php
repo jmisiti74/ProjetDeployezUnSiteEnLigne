@@ -21,7 +21,10 @@ if (($_SESSION['mail'] == emailAdmin) && ($_SESSION['pass'] == passAdmin)) { ?>
     </head>
 
     <body>
-        <div class="container-fluid">
+        <div class="container-fluid"> <!-- Conteneur BootStrap -->
+            
+            <!-- Header -->
+            
             <header class="row">
                 <nav class="navbar navbar-inverse col-xs-12" role="navigation">
                     <div class="row">
@@ -36,9 +39,9 @@ if (($_SESSION['mail'] == emailAdmin) && ($_SESSION['pass'] == passAdmin)) { ?>
                             </div>
                             <div class="collapse navbar-collapse row">
                                 <ul class="nav navbar-nav">
-                                    <li> <a href="#creationNews"><span>Créer une news</span></a> </li>
-                                    <li> <a href="#creationActivit"><span>Créer une Activitée</span></a> </li>
-                                    <li> <a href="#annulation"><span>Annuler</span></a> </li>
+                                    <li> <a href="#" id="creationNews"><span>Créer une news</span></a> </li>
+                                    <li> <a href="#" id="creationActivit"><span>Créer une Activitée</span></a> </li>
+                                    <li> <a href="#" id="annulation"><span>Annuler</span></a> </li>
                                 </ul>
                             </div>
                         </div>
@@ -46,7 +49,12 @@ if (($_SESSION['mail'] == emailAdmin) && ($_SESSION['pass'] == passAdmin)) { ?>
                     </div>
                 </nav>
             </header>
-            <p>Voilà la page d'administration</p>
+            
+            <!-- Corps -->
+            
+            <span id="cadreCreationNews" class="whiteText"></span>
+            <span id="cadreCreationActivite" class="whiteText"></span>
+            
         </div>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>

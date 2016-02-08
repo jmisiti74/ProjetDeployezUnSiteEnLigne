@@ -1,6 +1,6 @@
 $(function () {
     $('#lienAdministration').click(function () {
-        $('#espaceConnexionMembre').toggle();
+        $('#espaceConnexionMembre').fadeToggle(1500);
     });
     $('#espaceConnexionMembre').hide();
 });
