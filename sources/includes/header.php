@@ -2,7 +2,7 @@
     <div class="row">
         <div class="col-xs-8">
             <div class="navbar-header row">
-                <img style="width:125px;" src="/ProjetDeployezUnSiteEnLigne/sources/images/logo.png" id="logopng" alt="Logo ayze" />
+                <img style="width:125px;" src="../images/logo.png" id="logopng" alt="Logo ayze" />
                 <button id="navButton" type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
