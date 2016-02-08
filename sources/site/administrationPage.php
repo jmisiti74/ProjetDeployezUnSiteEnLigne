@@ -52,6 +52,7 @@ if (($_SESSION['mail'] == emailAdmin) && ($_SESSION['pass'] == passAdmin)) { ?>
             
             <!-- Corps -->
             
+            <h2 id="testJS" style="color:rgb(181, 230, 29);">Veuillez activé JavaScript pour accéder au fonctionalités de cette interface.</h2>
             <span id="cadreCreationNews" class="whiteText"></span>
             <span id="cadreCreationActivite" class="whiteText"></span>
             

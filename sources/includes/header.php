@@ -20,7 +20,7 @@
             </div>
         </div>
         <div id="includeEspaceMembre" class="col-xs-4">
-            <a id="lienAdministration" href="#">Espace administration</a>
+            <a id="lienAdministration" href="#">Veuillez Activé JavaScript pour utilisez les fonctionnalités de se site.</a>
             <div id="espaceConnexionMembre">
                 <form action="../site/administrationPage.php" method="post" />
                 <p>Connecté vous :

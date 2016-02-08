@@ -1,4 +1,7 @@
 $(function () {
+    
+    $('#testJS').hide();
+    // Création du cadre de création de news
     $('#cadreCreationNews').prepend('<form class="cadreVert" action="../includes/creationNews.php" methode="post" />');
     $('form').append('<div>');
     $('form').prepend('<h2>Creation de news');
@@ -14,7 +17,7 @@ $(function () {
     $('div:last').after('<p>* Obligatoire &nbsp;');
     $('p:last').append('<input class="blackText" type="submit" name="Valider" />');
 
-
+    // Création du cadre de création d'activités
     $('#cadreCreationActivite').prepend('<form class="cadreVert" action="../includes/creationNews.php" methode="post" />');
     $('form:last').append('<div>');
     $('form:last').prepend('<h2>Creation d\'activités');
