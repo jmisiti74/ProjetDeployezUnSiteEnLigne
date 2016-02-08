@@ -20,7 +20,18 @@
             </div>
         </div>
         <div id="includeEspaceMembre" class="col-xs-4">
-            <?php include 'membre.php'; ?>
+            <a id="lienAdministration" href="#">Espace administration</a>
+            <div id="espaceConnexionMembre">
+                <form action="administrationPage.php" method="post" />
+                <p>Connecté vous :
+                    <br> Email :
+                    <input class="blackText" type="text" name="email" />
+                    <br> Mot de passe :
+                    <input class="blackText" type="password" name="pass" />
+                    <input class="blackText" type="submit" name="Valider" />
+                </p>
+                </form>
+            </div>
         </div>
     </div>
 </nav>

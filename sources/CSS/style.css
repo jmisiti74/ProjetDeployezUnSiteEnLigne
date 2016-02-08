@@ -1,25 +1,4 @@
-.navbar-nav span {
-    font-size: 25px;
-    color: rgb(181, 230, 29);
-}
-
-.navbar-nav {
-    margin-top: 90px;
-}
-
-.navbar {
-    height: 150px;
-}
-body {
-    background: rgba(33, 30, 33, 0.9);
-}
-#espaceMembre {
-    text-align: center;
-    width: 290px;
-    border: 5px solid rgb(181, 230, 29);
-    color: white;
-    background-color: rgb(34, 34, 34);
-}
+/* Les medias queries*/
 @media screen and (max-width: 1156px) {
     .navbar {
         padding-bottom: 200px;
@@ -37,7 +16,7 @@ body {
     .navbar {
         height: 235px;
     }
-    #espaceMembre {
+    #espaceConnexionMembre {
         text-align: left;
         margin-left: -20px;
         width: 180px;
@@ -45,10 +24,7 @@ body {
         color: white;
     }
 }
-
-.navbar-nav span:hover {
-    text-decoration: underline;
-}
+/* Le header*/
 
 #logopng {
     position: absolute;
@@ -56,8 +32,17 @@ body {
     margin-left: 10px;
 }
 
-.blackText {
-    color: black;
+.navbar-nav span {
+    font-size: 25px;
+    color: rgb(181, 230, 29);
+}
+
+.navbar-nav {
+    margin-top: 90px;
+}
+
+.navbar {
+    height: 150px;
 }
 
 #navButton {
@@ -71,4 +56,28 @@ input {
 button {
     margin-top: -30px;
     margin-bottom: 2px;
+}
+
+.navbar-nav span:hover {
+    text-decoration: underline;
+}
+
+#espaceConnexionMembre {
+    text-align: center;
+    width: 290px;
+    border: 5px solid rgb(181, 230, 29);
+    color: white;
+    background-color: rgb(34, 34, 34);
+}
+
+/* le corps de la page */
+
+body {
+    background: rgba(34, 34, 34, 0.9);
+}
+
+/* le style */
+
+.blackText {
+    color: black;
 }
