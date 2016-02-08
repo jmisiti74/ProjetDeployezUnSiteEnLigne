@@ -1,12 +1,14 @@
+<!-- Les condition PHP pour que la page s'affiche -->
+
 <?php  
 session_start();
-include 'codesql.php';
+include '../includes/codesql.php';
 $_SESSION['mail'] = htmlspecialchars($_POST['email']);
 $_SESSION['pass'] = htmlspecialchars($_POST['pass']);
 
 if (($_SESSION['mail'] == emailAdmin) && ($_SESSION['pass'] == passAdmin)) { ?>
 
-
+<!-- La page HTML d'administration -->
 
     <!DOCTYPE html>
     <html>
@@ -56,9 +58,7 @@ if (($_SESSION['mail'] == emailAdmin) && ($_SESSION['pass'] == passAdmin)) { ?>
 
     </html>
 
-
-
-
+<!-- La fin de la page PHP -->
 
 
     <?php } else {

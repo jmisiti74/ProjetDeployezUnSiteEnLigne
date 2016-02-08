@@ -22,7 +22,7 @@
         <div id="includeEspaceMembre" class="col-xs-4">
             <a id="lienAdministration" href="#">Espace administration</a>
             <div id="espaceConnexionMembre">
-                <form action="administrationPage.php" method="post" />
+                <form action="../site/administrationPage.php" method="post" />
                 <p>Connecté vous :
                     <br> Email :
                     <input class="blackText" type="text" name="email" />
