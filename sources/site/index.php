@@ -12,13 +12,13 @@
 <body>
     <div class="container-fluid">
         <header class="row">
-            <?php include 'header.php'; ?>
+            <?php include '/ProjetDeployezUnSiteEnLigne/sources/includes/header.php'; ?>
         </header>
 
 
 
         <footer>
-            <?php include 'footer.php'; ?>
+            <?php include '/ProjetDeployezUnSiteEnLigne/sources/includes/footer.php'; ?>
         </footer>
     </div>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
