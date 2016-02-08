@@ -2,7 +2,7 @@ $(function () {
     
     $('#testJS').hide();
     // Création du cadre de création de news
-    $('#cadreCreationNews').prepend('<form class="cadreVert" action="../includes/creationNews.php" methode="post" />');
+    $('#cadreCreationNews').prepend('<form class="cadreVert" action="../PHP/creationNews.php" methode="post" />');
     $('form').append('<div>');
     $('form').prepend('<h2>Creation de news');
     $('div:last').append('<label for="titre">*Titre : ');
@@ -10,7 +10,7 @@ $(function () {
     $('div:last').append(' <input type="text" placeholder="Titre de la news" id="titre"/>');
     $('form').append('<div>');
     $('div:last').append('<label for="texte">*Texte de la news : ');
-    $('div:last').append(' <input type="text" placeholder="Texte de la news" id="titre"/>');
+    $('div:last').append(' <textarea name="text" placeholder="Texte de la news" id="texte">');
     $('form').append('<div>');
     $('div:last').append('<label for="image">Lien d\'une image : ');
     $('div:last').append(' <input type="text" placeholder="http://static.wamiz.fr/images/animaux/chiens/large/chien-courant-de-posavatz.jpg" id="image"/><br><br>');
@@ -18,15 +18,15 @@ $(function () {
     $('p:last').append('<input class="blackText" type="submit" name="Valider" />');
 
     // Création du cadre de création d'activités
-    $('#cadreCreationActivite').prepend('<form class="cadreVert" action="../includes/creationNews.php" methode="post" />');
+    $('#cadreCreationActivite').prepend('<form class="cadreVert" action="../PHP/creationActivite.php" methode="post" />');
     $('form:last').append('<div>');
     $('form:last').prepend('<h2>Creation d\'activités');
     $('div:last').append('<label for="titre">*Titre : ');
     $('div:last').append('<br>');
-    $('div:last').append(' <input type="text" placeholder="Titre de la news" id="titre"/>');
+    $('div:last').append(' <input type="text" placeholder="Titre de l\'activité" id="titre"/>');
     $('form:last').append('<div>');
     $('div:last').append('<label for="texte">*Texte de l\'activité : ');
-    $('div:last').append(' <input type="text" placeholder="Texte de la news" id="titre"/>');
+    $('div:last').append(' <textarea name="text" placeholder="Texte de l\'activité" id="texte">');
     $('form:last').append('<div>');
     $('div:last').append('<label for="date">*Date de l\'évenement : ');
     $('div:last').append(' <input type="text" placeholder="18 février 2016" id="date"/><br><br>');
