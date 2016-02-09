@@ -1,10 +1,17 @@
 <?php 
 include '../includes/codesql.php';
 
-$titre = $_POST['titre'];
-$texte = $_POST['texte'];
-$date = $_POST['date'];
+$titre = htmlspecialchars($_POST['titre']);
+$texte = htmlspecialchars($_POST['texte']);
+$dateEvenement = htmlspecialchars($_POST['date']);
 
-echo $date . ',<br>' . $titre . ',<br>' . $texte . '.'
+$req = $bdd->prepare('INSERT INTO activites(titre, texte, date, dateEvenement) VALUES(:titre, :texte, NOW(), :dateEvenement)');
 
+$req->execute(array(
+    'titre' => $titre,
+    'texte' => $texte,
+    'dateEvenement' => $dateEvenement
+));
+
+header('Location: ../site/administrationPage.php');
 ?>

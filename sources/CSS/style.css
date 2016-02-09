@@ -1,7 +1,7 @@
 /* Les medias queries*/
 
 @media screen and (max-width: 1156px) {
-    .navbar {
+    header .navbar {
         padding-bottom: 200px;
     }
     .navbar-nav {
@@ -14,7 +14,7 @@
         padding-top: -70px;
         font-size: 10px;
     }
-    .navbar {
+    header .navbar {
         height: 235px;
     }
     #espaceConnexionMembre {
@@ -44,7 +44,7 @@
     margin-top: 90px;
 }
 
-.navbar {
+header .navbar {
     height: 150px;
 }
 
@@ -66,6 +66,7 @@ button {
 }
 
 #espaceConnexionMembre {
+    margin-top: 9px;
     text-align: center;
     width: 290px;
     border: 5px solid rgb(181, 230, 29);
@@ -78,6 +79,9 @@ button {
 
 body {
     background: rgba(34, 34, 34, 0.9);
+    padding-top: 150px;
+    min-height: 100%;
+    margin-bottom: -75px;
 }
 
 textarea {
@@ -85,6 +89,29 @@ textarea {
     max-height: 500px;
     min-width: 180px;
     min-height: 40px;
+}
+
+#presentationVille {
+    font-size: 20px;
+    margin-top: 25px;
+    margin-left: 25px;
+}
+
+.imgNews {
+    width: 200px;
+    height: 190px;
+    margin-right: 10px;
+    float: left;
+}
+
+
+/* le footer */
+
+footer {
+    background: rgb(34, 34, 34);
+    height: 20px;
+    padding-top: 7px;
+    text-align: center;
 }
 
 /* le style */
@@ -106,10 +133,22 @@ textarea {
     background-color: rgb(34, 34, 34);
     color: white;
 }
+
+.cadreVertNews {
+    color: rgb(181, 230, 29);
+    padding: 0 8px 8px 8px;
+    border: 5px solid rgb(181, 230, 29);
+    background-color: rgb(34, 34, 34);
+    min-height: 280px;
+    margin-top: 25px;
+}
+
 .cadreVert h2 {
     font-size: 32px;
     color: rgb(181, 230, 29);
 }
-.cadreVert input, .cadreVert textarea {
+
+.cadreVert input,
+.cadreVert textarea {
     color: black;
 }

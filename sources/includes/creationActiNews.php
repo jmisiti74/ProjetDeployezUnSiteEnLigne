@@ -1,22 +1,21 @@
 <!-- Corps du cadre création de news -->
 <span id="cadreCreationNews" class="whiteText">
-    <form class="cadreVert" action="../PHP/creationNews.php" methode="post">
+    <form class="cadreVert" action="../PHP/creationNews.php" method="post">
         <div>
             <h2>Creation de news</h2>
             <label for="titre">*Titre :</label>
             <br>
-            <input type="text" placeholder="Titre de la news" name="titre"/>
+            <input type="text" placeholder="Titre de la news" name="titre" />
         </div>
         <div>
             <label for="texte">*Texte de la news :</label>
             <br>
-            <textarea placeholder="Texte de la news" name="texte"></textarea>
+            <textarea placeholder="Texte de la news" name="texte" ></textarea>
         </div>
         <div>
-            <label for="image">Lien d\'une image :</label>
-            <input type="text" placeholder="http://static.wamiz.fr/images/animaux/chiens/large/chien-courant-de-posavatz.jpg" name="image"/>
+            <label for="image">Lien d'une image :</label>
             <br>
-            <br>
+            <input type="text" placeholder="http://static.wamiz.fr/images/animaux/chiens/large/chien-courant-de-posavatz.jpg" name="image" /><br><br>
         </div>
         <p>* Obligatoire &nbsp;</p>
         <input class="blackText" type="submit" name="Valider" />

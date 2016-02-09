@@ -1,4 +1,4 @@
-<nav class="navbar navbar-inverse col-xs-12" role="navigation">
+<nav class="navbar navbar-inverse navbar-fixed-top col-xs-12" role="navigation">
     <div class="row">
         <div class="col-xs-8">
             <div class="navbar-header row">
@@ -20,7 +20,6 @@
             </div>
         </div>
         <div id="includeEspaceMembre" class="col-xs-4">
-            <a id="lienAdministration" href="#">Veuillez Activé JavaScript pour utilisez les fonctionnalités de se site.</a>
             <div id="espaceConnexionMembre">
                 <form action="../site/administrationPage.php" method="post" />
                 <p>Connecté vous :
