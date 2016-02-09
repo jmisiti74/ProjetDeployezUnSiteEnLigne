@@ -110,6 +110,6 @@ textarea {
     font-size: 32px;
     color: rgb(181, 230, 29);
 }
-.cadreVert input {
+.cadreVert input, .cadreVert textarea {
     color: black;
 }

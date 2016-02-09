@@ -8,7 +8,7 @@ $_SESSION['pass'] = htmlspecialchars($_POST['pass']);
 
 if (($_SESSION['mail'] == emailAdmin) && ($_SESSION['pass'] == passAdmin)) { ?>
 
-<!-- La page HTML d'administration -->
+    <!-- La page HTML d'administration -->
 
     <!DOCTYPE html>
     <html>
@@ -21,10 +21,11 @@ if (($_SESSION['mail'] == emailAdmin) && ($_SESSION['pass'] == passAdmin)) { ?>
     </head>
 
     <body>
-        <div class="container-fluid"> <!-- Conteneur BootStrap -->
-            
+        <div class="container-fluid">
+            <!-- Conteneur BootStrap -->
+
             <!-- Header -->
-            
+
             <header class="row">
                 <nav class="navbar navbar-inverse col-xs-12" role="navigation">
                     <div class="row">
@@ -49,13 +50,10 @@ if (($_SESSION['mail'] == emailAdmin) && ($_SESSION['pass'] == passAdmin)) { ?>
                     </div>
                 </nav>
             </header>
-            
-            <!-- Corps -->
-            
+
+            <!-- Teste de JavaScript -->
             <h2 id="testJS" style="color:rgb(181, 230, 29);">Veuillez activé JavaScript pour accéder au fonctionalités de cette interface.</h2>
-            <span id="cadreCreationNews" class="whiteText"></span>
-            <span id="cadreCreationActivite" class="whiteText"></span>
-            
+            <?php include '../includes/creationActiNews.php'; ?>
         </div>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
@@ -64,7 +62,7 @@ if (($_SESSION['mail'] == emailAdmin) && ($_SESSION['pass'] == passAdmin)) { ?>
 
     </html>
 
-<!-- La fin de la page PHP -->
+    <!-- La fin de la page PHP -->
 
 
     <?php } else {
