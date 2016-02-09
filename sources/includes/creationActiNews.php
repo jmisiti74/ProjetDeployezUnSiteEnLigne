@@ -5,16 +5,16 @@
             <h2>Creation de news</h2>
             <label for="titre">*Titre :</label>
             <br>
-            <input name="titre" type="text" placeholder="Titre de la news"/>
+            <input type="text" placeholder="Titre de la news" name="titre"/>
         </div>
         <div>
             <label for="texte">*Texte de la news :</label>
             <br>
-            <textarea name="texte" placeholder="Texte de la news"></textarea>
+            <textarea placeholder="Texte de la news" name="texte"></textarea>
         </div>
         <div>
             <label for="image">Lien d\'une image :</label>
-            <input name="image" type="text" placeholder="http://static.wamiz.fr/images/animaux/chiens/large/chien-courant-de-posavatz.jpg"/>
+            <input type="text" placeholder="http://static.wamiz.fr/images/animaux/chiens/large/chien-courant-de-posavatz.jpg" name="image"/>
             <br>
             <br>
         </div>
