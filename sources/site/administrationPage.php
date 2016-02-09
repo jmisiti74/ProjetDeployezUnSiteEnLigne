@@ -27,7 +27,7 @@ if (($_SESSION['mail'] == emailAdmin) && ($_SESSION['pass'] == passAdmin)) { ?>
             <!-- Header -->
 
             <header class="row">
-                <nav class="navbar navbar-inverse col-xs-12" role="navigation">
+                <nav class="navbar navbar-inverse navbar-fixed-top col-xs-12" role="navigation">
                     <div class="row">
                         <div class="col-xs-8">
                             <div class="navbar-header row">
@@ -46,7 +46,6 @@ if (($_SESSION['mail'] == emailAdmin) && ($_SESSION['pass'] == passAdmin)) { ?>
                                 </ul>
                             </div>
                         </div>
-                        <a href="index.php">Retour à l'éspace membre</a>
                     </div>
                 </nav>
             </header>
@@ -54,6 +53,9 @@ if (($_SESSION['mail'] == emailAdmin) && ($_SESSION['pass'] == passAdmin)) { ?>
             <!-- Teste de JavaScript -->
             <h2 id="testJS" style="color:rgb(181, 230, 29);">Veuillez activé JavaScript pour accéder au fonctionalités de cette interface.</h2>
             <?php include '../includes/creationActiNews.php'; ?>
+            <footer class="row navbar navbar-fixed-bottom">
+                <a href="index.php">Retour à l'éspace membre</a>
+            </footer>
         </div>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>

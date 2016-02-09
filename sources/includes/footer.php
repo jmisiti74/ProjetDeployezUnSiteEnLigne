@@ -1,1 +1,1 @@
-<a id="lienAdministration" href="#">Veuillez Activé JavaScript pour utilisez les fonctionnalités de se site.</a>
+<a id="lienAdministration" href="#footer">Veuillez Activé JavaScript pour utilisez les fonctionnalités de se site.</a>

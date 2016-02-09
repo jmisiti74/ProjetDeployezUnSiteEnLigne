@@ -1,8 +1,8 @@
 <?php 
 include '../includes/codesql.php';
 
-$req = $bdd->query('SELECT titre, texte, image, DAY(date) AS jour, MONTH(date) AS mois, YEAR(date) AS ans FROM news ORDER BY id DESC LIMIT 0, 1');
-   
+$req = $bdd->query('SELECT titre, texte, image, DAY(date) AS jour, MONTH(date) AS mois, YEAR(date) AS ans FROM news ORDER BY id DESC LIMIT 0, 5');
+
 while ($donnees = $req->fetch()){
     switch ($donnees['mois']) {
         case 1:
@@ -43,9 +43,9 @@ while ($donnees = $req->fetch()){
             break;
     }
     if($donnees['image']) {
-        echo '<div class="cadreVertNews"><h2>' . $donnees['titre'] . '</h2> <br /><img  class="imgNews" src="' . $donnees['image'] . '"/><br /><p>' . $donnees['texte'] . '</p><br /><p class="dateNews">le ' . $donnees['jour'] . ' ' . $donnees['mois'] . ' ' . $donnees['ans'] . '</p></div>';
+        echo '<div class="col-md-5 whiteText"><div class="cadreVertNews"><h2>' . $donnees['titre'] . '</h2> <br /><img  class="imgNews" src="' . $donnees['image'] . '"/><br /><p>' . $donnees['texte'] . '</p><br /><p class="dateNews">le ' . $donnees['jour'] . ' ' . $donnees['mois'] . ' ' . $donnees['ans'] . '</p></div>';
     } else {
-        echo '<div class="cadreVertNews"><h2>' . $donnees['titre'] . '</h2><br /><p>' . $donnees['texte'] . '</p><br /><p>le ' . $donnees['jour'] . ' ' . $donnees['mois'] . ' ' . $donnees['ans'] . '</p></div>';
+        echo '<div class="col-md-5 whiteText"><div class="cadreVertNews"><h2>' . $donnees['titre'] . '</h2><br /><p>' . $donnees['texte'] . '</p><br /><p class="dateNews">le ' . $donnees['jour'] . ' ' . $donnees['mois'] . ' ' . $donnees['ans'] . '</p></div></div>';
     }
 }
 

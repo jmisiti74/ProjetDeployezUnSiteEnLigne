@@ -24,13 +24,13 @@
                         <?php include '../PHP/latestNews.php' ?>
                     </div>
                 </div>
+            </div>
             <footer class="row navbar navbar-fixed-bottom">
                 <?php include '../includes/footer.php'; ?>
             </footer>
-        </div>
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
-        <script src="../JS/indexJS.js"></script>
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+            <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+            <script src="../JS/indexJS.js"></script>
     </body>
 
     </html>
