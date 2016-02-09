@@ -13,9 +13,9 @@
                 <ul class="nav navbar-nav">
                     <li> <a href="../site/"><span><span class="glyphicon glyphicon-home"></span> Acceuil</span></a> </li>
                     <li> <a href="../site/actu.php"><span><span class="glyphicon glyphicon-exclamation-sign"></span> Actualités</span></a> </li>
-                    <li> <a href="#contact"><span><span class="glyphicon glyphicon-info-sign"></span> Plus d'infos</span></a> </li>
-                    <li> <a href="#qui"><span><span class="glyphicon glyphicon-hand-right"></span> Activités du mois</span></a> </li>
-                    <li> <a href="#contact"><span><span class="glyphicon glyphicon-list-alt"></span> Contact</span></a> </li>
+                    <li> <a href="../site/plusInfo.php"><span><span class="glyphicon glyphicon-info-sign"></span> Plus d'infos</span></a> </li>
+                    <li> <a href="#qui"><span><span class="glyphicon glyphicon-leaf"></span> Activités du mois</span></a> </li>
+                    <li> <a href="#contact"><span><span class="glyphicon glyphicon-envelope"></span> Contact</span></a> </li>
                 </ul>
             </div>
         </div>

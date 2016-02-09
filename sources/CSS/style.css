@@ -1,32 +1,3 @@
-/* Les medias queries*/
-
-@media screen and (max-width: 1156px) {
-    header .navbar {
-        padding-bottom: 200px;
-    }
-    .navbar-nav {
-        background-color: rgb(34, 34, 34);
-    }
-}
-
-@media screen and (max-width: 767px) {
-    .navbar-nav span {
-        padding-top: -70px;
-        font-size: 10px;
-    }
-    header .navbar {
-        height: 235px;
-    }
-    #espaceConnexionMembre {
-        text-align: left;
-        margin-left: -20px;
-        width: 180px;
-        border: 5px solid rgb(181, 230, 29);
-        color: white;
-    }
-}
-
-
 /* Le header*/
 #logopng {
     position: absolute;
@@ -103,7 +74,6 @@ textarea {
     float: left;
 }
 
-
 /* le footer */
 
 footer {
@@ -139,7 +109,8 @@ footer {
     border: 5px solid rgb(181, 230, 29);
     background-color: rgb(34, 34, 34);
     min-height: 300px;
-    margin-top: 25px;
+    margin-top: 60px;
+    margin-right: 10px;
 }
 
 .cadreVert h2 {
@@ -150,4 +121,38 @@ footer {
 .cadreVert input,
 .cadreVert textarea {
     color: black;
+}
+
+/* Les medias queries*/
+
+@media screen and (max-width: 1156px) {
+    header .navbar {
+        padding-bottom: 200px;
+    }
+    .navbar-nav {
+        background-color: rgb(34, 34, 34);
+    }
+    body {
+        padding-top: 200px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .navbar-nav span {
+        padding-top: -70px;
+        font-size: 10px;
+    }
+    header .navbar {
+        height: 235px;
+    }
+    #espaceConnexionMembre {
+        text-align: left;
+        margin-left: -20px;
+        width: 180px;
+        border: 5px solid rgb(181, 230, 29);
+        color: white;
+    }
+    body {
+        padding-top: 250px;
+    }
 }

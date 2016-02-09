@@ -43,7 +43,7 @@ while ($donnees = $req->fetch()){
             break;
     }
     if($donnees['image']) {
-        echo '<div class="col-md-5 whiteText"><div class="cadreVertNews"><h2>' . $donnees['titre'] . '</h2> <br /><img  class="imgNews" src="' . $donnees['image'] . '"/><br /><p>' . $donnees['texte'] . '</p><br /><p class="dateNews">le ' . $donnees['jour'] . ' ' . $donnees['mois'] . ' ' . $donnees['ans'] . '</p></div>';
+        echo '<div class="col-md-5 whiteText"><div class="cadreVertNews"><h2>' . $donnees['titre'] . '</h2> <br /><img  class="imgNews" src="' . $donnees['image'] . '"/><br /><p>' . $donnees['texte'] . '</p><br /><p class="dateNews">le ' . $donnees['jour'] . ' ' . $donnees['mois'] . ' ' . $donnees['ans'] . '</p></div></div>';
     } else {
         echo '<div class="col-md-5 whiteText"><div class="cadreVertNews"><h2>' . $donnees['titre'] . '</h2><br /><p>' . $donnees['texte'] . '</p><br /><p class="dateNews">le ' . $donnees['jour'] . ' ' . $donnees['mois'] . ' ' . $donnees['ans'] . '</p></div></div>';
     }
