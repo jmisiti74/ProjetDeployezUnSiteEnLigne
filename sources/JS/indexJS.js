@@ -1,7 +1,8 @@
 $(function () {
     $('#lienAdministration').text('Espace administration');
     $('#lienAdministration').click(function () {
-        $('#espaceConnexionMembre').fadeToggle(540);
+        $('#includeEspaceMembre').fadeToggle(540);
+        $('#includeInscriptionActi').hide();
     });
-    $('#espaceConnexionMembre').hide();
+    $('#includeEspaceMembre').hide();
 });

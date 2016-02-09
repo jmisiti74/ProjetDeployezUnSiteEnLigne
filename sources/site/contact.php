@@ -14,11 +14,19 @@
             <header class="row">
                 <?php include '../includes/header.php'; ?>
             </header>
-            
-            <div class="row">
-                <?php include '../PHP/news.php' ?>
-            </div>
 
+
+            <div class="col-sm-2 cadreVertActivit">
+                <form action="../PHP/mail.php" method="post" />
+                <p>Formulaire de contact :<br>
+                    <br> Sujet :
+                    <input class="blackText" type="text" name="subject" />
+                    <br> Texte :
+                    <input class="blackText" type="text" name="msg" />
+                    <input class="blackText" type="submit" name="Valider" />
+                </p>
+                </form>
+            </div>
             <footer class="row navbar navbar-fixed-bottom">
                 <?php include '../includes/footer.php'; ?>
             </footer>

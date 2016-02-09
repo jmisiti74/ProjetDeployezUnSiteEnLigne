@@ -16,7 +16,7 @@
             </header>
             
             <div class="row">
-                <?php include '../PHP/news.php' ?>
+                <?php include '../PHP/activit.php' ?>
             </div>
 
             <footer class="row navbar navbar-fixed-bottom">
@@ -26,6 +26,7 @@
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
         <script src="../JS/indexJS.js"></script>
+        <script src="../JS/inscriptionActiJS.js"></script>
     </body>
 
     </html>
