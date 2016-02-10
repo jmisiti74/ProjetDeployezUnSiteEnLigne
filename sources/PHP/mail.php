@@ -1,10 +1,18 @@
 <?php 
 
-if (isset($_POST['msg']) && isset($_POST['subject'])) {
-    $msg = htmlspecialchars($_POST['msg']);
+if (isset($_POST['texteContact']) && isset($_POST['subjectContact']) && isset($_POST['nomContact']) && isset($_POST['emailContact']) && isset($_POST['nationalityContact'])) {
+    $texteContact = htmlspecialchars($_POST['texteContact']);
+    $subjectContact = htmlspecialchars($_POST['subjectContact']);
+    $nomContact = htmlspecialchars($_POST['nomContact']);
+    $emailContact = htmlspecialchars($_POST['emailContact']);
+    $nationalityContact = htmlspecialchars($_POST['nationalityContact']);
+    if (isset($_POST['residentContact'])){
+        $msg = $subjectContact . "Mail de " . $emailContact . " resident dans la ville (nom : " . $nomContact . " nationalité : " . $nationalityContact . " vous dit : " . $texteContact;
+    } else {
+        $msg = $subjectContact . "Mail de " . $emailContact . " (nom : " . $nomContact . " nationalité : " . $nationalityContact . " vous dit : " . $texteContact;
+    }
     $msg = wordwrap($msg,70);
-    $subject = htmlspecialchars($_POST['subject']);
-	mail('xjejevbx@gmail.com', $subject, $msg);
+	mail('xjejevbx@gmail.com', 'Message d\'un citoyen', $msg);
 	
 	header('Location: ../site/contact.php');
 }

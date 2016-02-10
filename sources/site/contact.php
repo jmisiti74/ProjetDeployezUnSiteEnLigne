@@ -18,21 +18,23 @@
 
             <div class="col-sm-2 cadreVertActivit">
                 <form action="../PHP/mail.php" method="post" />
-                <p>Formulaire de contact :<br>
-                    <br> Titre :
-                    <input class="blackText" type="text" name="subject" />
-                    <br> Texte :
-                    <input class="blackText" type="text" name="msg" />
-                    <br> Votre nom :
-                    <input class="blackText" type="text" name="msg" />
-                    <br> Votre e-mail :
-                    <input class="blackText" type="text" name="msg" />
-					<br> Êtes-vous un résident de la ville :
-					<input type="checkbox" name="resident"/>
-					<br> Quel-est votre nationalitée :
-					<select name="nationality">
+                <p><b>Formulaire de contact :</b><br>
+                    <label for="sujet">Titre :</label>
+                    <input class="blackText" type="text" id="sujetContact" name="subjectContact" /><br>
+                    <label for="texteContact">Texte :</label>
+                    <textarea id="texteContact" name="texteContact" ></textarea><br>
+                    <label for="nomContact">Votre nom :</label>
+                    <input class="blackText" type="text" id="nomContact" name="nomContact" /><br>
+                    <label for="emailContact">Votre e-mail :</label>
+                    <input class="blackText" type="text" id="emailContact" name="emailContact" /><br>
+					<label for="residentContact">Êtes-vous un résident de la ville :</label>
+					<input type="checkbox" id="residentContact" name="residentContact"/><br>
+					<br>
+					<label for="nationalityContact">Quel-est votre nationalitée :</label>
+					<select class="blackText" id="nationalityContact" name="nationalityContact">
 						<?php include '../includes/nationalityList.php'; ?>
 					</select>
+					<br>
 					<br>
                     <input class="blackText" type="submit" name="Valider" />
                 </p>

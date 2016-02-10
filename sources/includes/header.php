@@ -22,30 +22,28 @@
         <!-- Formulaire cacher Espace Membre -->
         <div id="includeEspaceMembre" class="col-sm-2">
             <div class="espaceConnexionMembre">
-                <form action="../site/administrationPage.php" method="post" />
-                <p>Connecté vous :
-                    <br> Email :
-                    <input class="blackText" type="text" name="email" />
-                    <br> Mot de passe :
-                    <input class="blackText" type="password" name="pass" />
-                    <input class="blackText" type="submit" name="Valider" />
-                </p>
+                <form action="../site/administrationPage.php" method="post">
+                <p><b>Connecté vous :</b></p>
+                <label for="email">Email :</label>
+                <input class="blackText" type="text" id="email" name="email" />
+                <label for="pass">Mot de passe :</label>
+                <input class="blackText" type="password" id="pass" name="pass" />
+                <input class="blackText" type="submit" name="Valider" />
                 </form>
             </div>
         </div>
         <!-- Formulaire cacher Espace Membre -->
         <div id="includeInscriptionActi" class="col-sm-2">
             <div class="espaceConnexionMembre">
-                <form action="../PHP/mail.php" method="post" />
-                <p>Inscrivez vous à l'activitez:
-                    <br> Prénom :
-                    <input class="blackText" type="text" name="prenom" />
-                    <br> Nom :
-                    <input class="blackText" type="text" name="nom" />
-                    <input id="dateActivit" hidden type="text" value="date de l'activité" name="dateActivit"/>
-                    <input id="nomActivit" hidden type="text" value="nom de l'activité" name="nomActivit"/>
-                    <input class="blackText" type="submit" name="Valider" />
-                </p>
+                <form action="../PHP/mail.php" method="post">
+                <p><b>Inscrivez vous à l'activitez:</b></p>
+                <label for="prenom">Prénom :</label>
+                <input class="blackText" type="text" id="prenom" name="prenom" />
+                <label for="nom">Nom :</label>
+                <input class="blackText" type="text" id="nom" name="nom" />
+                <input id="dateActivit" hidden type="text" value="date de l'activité" name="dateActivit" />
+                <input id="nomActivit" hidden type="text" value="nom de l'activité" name="nomActivit" />
+                <input class="blackText" type="submit" name="Valider" />
                 </form>
             </div>
         </div>
