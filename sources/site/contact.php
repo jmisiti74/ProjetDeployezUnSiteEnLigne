@@ -19,10 +19,10 @@
             <div class="col-sm-2 cadreVertActivit">
                 <form action="../PHP/mail.php" method="post" />
                 <p><b>Formulaire de contact :</b><br>
-                    <label for="sujet">Titre :</label>
+                    <label for="sujetContact">Titre :</label>
                     <input class="blackText" type="text" id="sujetContact" name="subjectContact" /><br>
                     <label for="texteContact">Texte :</label>
-                    <textarea id="texteContact" name="texteContact" ></textarea><br>
+                    <textarea class="blackText" id="texteContact" name="texteContact" ></textarea><br>
                     <label for="nomContact">Votre nom :</label>
                     <input class="blackText" type="text" id="nomContact" name="nomContact" /><br>
                     <label for="emailContact">Votre e-mail :</label>
