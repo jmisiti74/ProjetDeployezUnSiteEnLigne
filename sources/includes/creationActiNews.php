@@ -39,7 +39,7 @@
         <div>
             <label for="date">*Date de l'évenement :</label>
             <br>
-            <input type="text" placeholder="18 février 2016" name="date" /><br><br>
+            <input type="text" placeholder="18 février 2016 à 18H30" name="date" /><br><br>
         </div>
         <p>* Obligatoire &nbsp;</p>
         <input class="blackText" type="submit" name="Valider" />

@@ -36,12 +36,14 @@
         <!-- Formulaire cacher Espace Membre -->
         <div id="includeInscriptionActi" class="col-sm-2">
             <div class="espaceConnexionMembre">
-                <form action="../site/mail.php" method="post" />
+                <form action="../PHP/mail.php" method="post" />
                 <p>Inscrivez vous à l'activitez:
                     <br> Prénom :
                     <input class="blackText" type="text" name="prenom" />
                     <br> Nom :
                     <input class="blackText" type="text" name="nom" />
+                    <input id="dateActivit" hidden type="text" value="date de l'activité" name="dateActivit"/>
+                    <input id="nomActivit" hidden type="text" value="nom de l'activité" name="nomActivit"/>
                     <input class="blackText" type="submit" name="Valider" />
                 </p>
                 </form>

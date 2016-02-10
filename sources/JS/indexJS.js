@@ -5,4 +5,5 @@ $(function () {
         $('#includeInscriptionActi').hide();
     });
     $('#includeEspaceMembre').hide();
+    $('#includeInscriptionActi').hide();
 });
