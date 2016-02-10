@@ -19,10 +19,21 @@
             <div class="col-sm-2 cadreVertActivit">
                 <form action="../PHP/mail.php" method="post" />
                 <p>Formulaire de contact :<br>
-                    <br> Sujet :
+                    <br> Titre :
                     <input class="blackText" type="text" name="subject" />
                     <br> Texte :
                     <input class="blackText" type="text" name="msg" />
+                    <br> Votre nom :
+                    <input class="blackText" type="text" name="msg" />
+                    <br> Votre e-mail :
+                    <input class="blackText" type="text" name="msg" />
+					<br> Êtes-vous un résident de la ville :
+					<input type="checkbox" name="resident"/>
+					<br> Quel-est votre nationalitée :
+					<select name="nationality">
+						<?php include '../includes/nationalityList.php'; ?>
+					</select>
+					<br>
                     <input class="blackText" type="submit" name="Valider" />
                 </p>
                 </form>
