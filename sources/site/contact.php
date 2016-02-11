@@ -20,18 +20,18 @@
                 <form action="../PHP/mail.php" method="post" />
                 <p><b>Formulaire de contact :</b><br>
                     <label for="sujetContact">Titre :</label>
-                    <input class="blackText" type="text" id="sujetContact" name="subjectContact" /><br>
+                    <input class="blackText" required type="text" id="sujetContact" name="subjectContact" /><br>
                     <label for="texteContact">Texte :</label>
-                    <textarea class="blackText" id="texteContact" name="texteContact" ></textarea><br>
+                    <textarea class="blackText" required id="texteContact" name="texteContact" ></textarea><br>
                     <label for="nomContact">Votre nom :</label>
-                    <input class="blackText" type="text" id="nomContact" name="nomContact" /><br>
+                    <input class="blackText" required type="text" id="nomContact" name="nomContact" /><br>
                     <label for="emailContact">Votre e-mail :</label>
-                    <input class="blackText" type="text" id="emailContact" name="emailContact" /><br>
+                    <input class="blackText" required type="text" id="emailContact" name="emailContact" /><br>
 					<label for="residentContact">Êtes-vous un résident de la ville :</label>
 					<input type="checkbox" id="residentContact" name="residentContact"/><br>
 					<br>
 					<label for="nationalityContact">Quel-est votre nationalitée :</label>
-					<select class="blackText" id="nationalityContact" name="nationalityContact">
+					<select class="blackText" required id="nationalityContact" name="nationalityContact">
 						<?php include '../includes/nationalityList.php'; ?>
 					</select>
 					<br>
