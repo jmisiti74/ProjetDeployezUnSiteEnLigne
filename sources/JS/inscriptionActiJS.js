@@ -9,5 +9,10 @@ $(function () {
         $('#dateActivit').attr('value', dateActivit);
         $('#includeInscriptionActi').fadeToggle(540);
         $('#includeEspaceMembre').hide();
-    });    
+		$(window).scrollTop( $('.espaceConnexionMembre').scrollTop())
+    }); 
+    $('.fermetureFormulaire').click(function () {
+        $('#includeInscriptionActi').hide(400);
+        $('#includeEspaceMembre').hide(400);
+    });   
 });
