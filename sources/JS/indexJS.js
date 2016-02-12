@@ -5,5 +5,9 @@ $(function () {
         $('#includeInscriptionActi').hide();
     });
     $('#includeEspaceMembre').hide();
-    $('#includeInscriptionActi').hide();
+    $('#includeInscriptionActi').hide();	 
+    $('.fermetureFormulaire').click(function () {
+        $('#includeInscriptionActi').hide(400);
+        $('#includeEspaceMembre').hide(400);
+    });   
 });

@@ -14,6 +14,10 @@
             <header class="row">
                 <?php include '../includes/header.php'; ?>
             </header>
+			
+			<?php include '../includes/formulaires.php'; ?>
+			
+			
             <div id="presentationVille">
                 <div class="row">
                     <p class="col-md-4 whiteText">Bienvenue sur le site de la ville d'ayze (<i>ayse</i>), vous trouverez sur ce site différentes informations sur la ville mais aussis un éspace d'inscription pour différents type d'activités culturel et sportive proposé par la commune. Vous pouvez nous contacter directement vià le formulaire de contact mis a disposition en cliquand sur le lien "Contact" dans le menu de navigation.

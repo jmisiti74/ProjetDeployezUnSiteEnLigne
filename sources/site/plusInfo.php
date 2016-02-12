@@ -14,6 +14,9 @@
             <header class="row">
                 <?php include '../includes/header.php'; ?>
             </header>
+			
+			<?php include '../includes/formulaires.php'; ?>
+			
             <div id="presentationVille" class="row">
                 <p class="col-xs-12 whiteText">La ville dispose de plusieurs activités, voilà une liste des principales activités culturel disponible :</p><br><br>
                 <div class="whiteText col-md-5 cadreVertNews">

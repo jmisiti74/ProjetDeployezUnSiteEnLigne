@@ -15,6 +15,7 @@
                 <?php include '../includes/header.php'; ?>
             </header>
 
+			<?php include '../includes/formulaires.php'; ?>
 
             <div class="col-sm-2 cadreVertActivit">
                 <form action="../PHP/mail.php" method="post" />

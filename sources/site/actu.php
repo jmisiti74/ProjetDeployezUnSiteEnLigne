@@ -14,7 +14,9 @@
             <header class="row">
                 <?php include '../includes/header.php'; ?>
             </header>
-            
+			
+				<?php include '../includes/formulaires.php'; ?>
+				
             <div class="row">
                 <?php include '../PHP/news.php' ?>
             </div>
